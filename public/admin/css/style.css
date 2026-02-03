@@ -1,0 +1,37 @@
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.bg-light-green {
+    background-color: #e6ffe6;
+}
+
+.bg-light-red {
+    background-color: #ffcccb;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.size-px-24 {
+    height: 24px;
+    width: 24px;
+}
+
+.size-px-80 {
+    width: 80px;
+    height: 80px;
+}
+
+.fs-px-36 {
+    font-size: 36px;
+}
+
+.w-min {
+    width: min-content;
+}
+
+.in-valid {
+    border-color: #dc3545 !important;
+}

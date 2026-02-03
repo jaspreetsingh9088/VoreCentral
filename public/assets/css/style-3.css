@@ -1,0 +1,162 @@
+.relative-notification {
+    position: relative;
+}
+
+.notifications-list {
+    width: 300px;
+    top: 100px;
+    right: 0;
+    padding: 15px;
+    display: none;
+    z-index: 9;
+    box-shadow: 0 4px 44px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+}
+
+.notifications-list::after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    top: -7px;
+    right: 9px;
+    transform: rotate(45deg)
+}
+
+.notifications-list ul {
+    display: block;
+}
+
+.notifications-list ul li {
+    padding: 5px 0;
+    display: inline-block;
+    border-bottom: 1px solid #f3f3f3;
+    width: 100%;
+    font-size: 14px
+}
+
+.all-notifications__bottom,
+.all-notifications__bottom a {
+    color: #fff;
+    font-size: 16px
+}
+
+.all-notifications {
+    padding: 5px 10px;
+    display: inline-block;
+    width: 100%;
+    background-color: #425af2;
+    color: #fff;
+    line-height: 35px
+}
+
+.notifications-list ul li a {
+    background: 0 0 !important;
+    color: #000
+}
+
+.notifications-list ul li a:hover {
+    background: 0 0;
+    color: #333 !important
+}
+
+.notification-show-box {
+    width: 100%;
+    display: inline-block
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    float: left
+}
+
+.profile-image img {
+    max-width: 100%;
+    border-radius: 50px
+}
+
+.notification-side-text {
+    color: #fff;
+    width: calc(100% - 60px);
+    float: right
+}
+
+span.light-color {
+    color: #ccc
+}
+
+.all-notifications__left,
+.all-notifications__left span,
+.close__btn:hover,
+.navbar-top-right-menu li a.view-all,
+.user-link span {
+    color: var(--text-color);
+    color: var(--text-color)
+}
+
+.overflow-notifications {
+    height: 250px;
+    overflow-y: scroll
+}
+
+.all-notifications__headert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px
+}
+
+.all-notifications__left {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    line-height: none;
+    color: #fff
+}
+
+.all-notifications__left span,
+.close__btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center
+}
+
+.all-notifications__left span {
+    margin-left: 5px;
+    background: #5e9226;
+    display: inline-block
+}
+
+.close__btn {
+    background: #a9adb1;
+    color: #fff;
+    cursor: pointer
+}
+
+.navbar-top-right-menu li a.view-all {
+    background: 0 0 !important;
+    font-size: 16px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px
+}
+
+.store_theme .all-notifications {
+    padding: 5px 10px;
+    display: inline-block;
+    width: 100%;
+    background-color: #123e12;
+    color: #fff;
+    line-height: 35px
+}
+
+.notifications-list,
+.notifications-list::after {
+    background: var(--bg-pattern);
+    position: absolute;
+}
